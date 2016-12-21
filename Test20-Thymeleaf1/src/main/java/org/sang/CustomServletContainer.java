@@ -15,7 +15,7 @@ import java.util.concurrent.TimeUnit;
 public class CustomServletContainer implements EmbeddedServletContainerCustomizer {
     @Override
     public void customize(ConfigurableEmbeddedServletContainer container) {
-        container.setPort(8080);
+        container.setPort(8443);
         container.addErrorPages(new ErrorPage(HttpStatus.NOT_FOUND,"/404.html"));
         container.setSessionTimeout(10, TimeUnit.MINUTES);
     }
