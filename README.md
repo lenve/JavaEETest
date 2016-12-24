@@ -1,3 +1,26 @@
 # JavaEETest
 ### 所有的案例在我的博客中都有详细介绍，博客地址：
-#[http://blog.csdn.net/u012702547](http://blog.csdn.net/u012702547)
+#[http://blog.csdn.net/u012702547](http://blog.csdn.net/u012702547)  
+####Test4对应博客地址/[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)
+####Test5对应博客地址/[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)
+####Test6-AOP对应博客地址/[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)
+####Test7-Scope对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
+####Test8-EL对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
+####Test9-BeanLiftCycle对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
+####Test10-Profile对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
+####Test11-Event对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
+####Test12-Aware对应博客地址/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
+####Test13-TaskExecutor对应博客地址/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
+####Test14-Scheduled对应博客地址/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
+####Test15-Conditional/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
+####Test16-GroupAnno/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
+####Test17-Test/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
+####Test18-SpringMVC1对应博客地址/[SpringMVC基础配置(通过注解配置,非xml配置) ](http://blog.csdn.net/u012702547/article/details/53674867)
+####Test18-SpringMVC2对应博客地址/[SpringMVC基础配置(通过注解配置,非xml配置) ](http://blog.csdn.net/u012702547/article/details/53674867)
+####Test18-SpringMVC3对应博客地址/[SpringMVC常用配置](http://blog.csdn.net/u012702547/article/details/53695789)
+####Test19-SpringBoot2对应博客地址/[初识Spring Boot框架](https://github.com/lenve/JavaEETest/tree/master/Test19-SpringBoot2)
+####Test19-MyStarter对应博客地址/[初识Spring Boot框架(二)之DIY一个Spring Boot的自动配置](http://blog.csdn.net/u012702547/article/details/53750449)
+####Test20-Thymeleaf1对应博客地址/[使用Spring Boot开发Web项目](http://blog.csdn.net/u012702547/article/details/53784992)/[使用Spring Boot开发Web项目(二)之添加HTTPS支持](http://blog.csdn.net/u012702547/article/details/53790722)
+####Test20-WebSocket对应博客地址/[在Spring Boot框架下使用WebSocket实现消息推送](http://blog.csdn.net/u012702547/article/details/53816326)
+
+
