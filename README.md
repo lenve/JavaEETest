@@ -23,6 +23,6 @@
 ####Test20-Thymeleaf1对应博客地址/[使用Spring Boot开发Web项目](http://blog.csdn.net/u012702547/article/details/53784992)/[使用Spring Boot开发Web项目(二)之添加HTTPS支持](http://blog.csdn.net/u012702547/article/details/53790722)
 ####Test20-WebSocket对应博客地址/[在Spring Boot框架下使用WebSocket实现消息推送](http://blog.csdn.net/u012702547/article/details/53816326)
 ####Test21-WebChat对应博客地址/[在Spring Boot框架下使用WebSocket实现聊天功能](http://blog.csdn.net/u012702547/article/details/53835453)  
-####Test22-JPA对应博客地址/[初识在Spring Boot中使用JPA](http://blog.csdn.net/u012702547/article/details/53946440)
-
+####Test22-JPA对应博客地址/[初识在Spring Boot中使用JPA](http://blog.csdn.net/u012702547/article/details/53946440)   
+####Test23-REST对应博客地址/[在Spring Boot中输出REST资源](http://blog.csdn.net/u012702547/article/details/54023654)
 
