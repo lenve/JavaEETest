@@ -25,4 +25,5 @@
 ####Test21-WebChat对应博客地址/[在Spring Boot框架下使用WebSocket实现聊天功能](http://blog.csdn.net/u012702547/article/details/53835453)  
 ####Test22-JPA对应博客地址/[初识在Spring Boot中使用JPA](http://blog.csdn.net/u012702547/article/details/53946440)   
 ####Test23-REST对应博客地址/[在Spring Boot中输出REST资源](http://blog.csdn.net/u012702547/article/details/54023654)
-####Test24-Transaction对应博客地址/[在Spring Boot中使用数据库事务](http://blog.csdn.net/u012702547/article/details/54098190)
+####Test24-Transaction对应博客地址/[在Spring Boot中使用数据库事务](http://blog.csdn.net/u012702547/article/details/54098190)  
+####Test25-Cache对应博客地址/[ 在Spring Boot中使用数据缓存](http://blog.csdn.net/u012702547/article/details/54142243)
