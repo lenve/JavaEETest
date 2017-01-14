@@ -27,4 +27,5 @@
 ####Test23-REST对应博客地址/[在Spring Boot中输出REST资源](http://blog.csdn.net/u012702547/article/details/54023654)
 ####Test24-Transaction对应博客地址/[在Spring Boot中使用数据库事务](http://blog.csdn.net/u012702547/article/details/54098190)  
 ####Test25-Cache对应博客地址/[ 在Spring Boot中使用数据缓存](http://blog.csdn.net/u012702547/article/details/54142243)  
-####Test26-Security对应博客地址/[ 在Spring Boot中使用Spring Security实现权限控制 ](http://blog.csdn.net/u012702547/article/details/54319508)
+####Test26-Security对应博客地址/[ 在Spring Boot中使用Spring Security实现权限控制 ](http://blog.csdn.net/u012702547/article/details/54319508)  
+####Test27-mybatis2对应博客地址/[初识mybatis ](http://blog.csdn.net/u012702547/article/details/54408761)
