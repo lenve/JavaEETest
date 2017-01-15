@@ -30,4 +30,5 @@
 ####Test26-Security对应博客地址/[ 在Spring Boot中使用Spring Security实现权限控制 ](http://blog.csdn.net/u012702547/article/details/54319508)  
 ####Test27-mybatis2对应博客地址/[初识mybatis ](http://blog.csdn.net/u012702547/article/details/54408761)  
 ####Test27-mybatis3对应博客地址/[ 初识mybatis(二)](http://blog.csdn.net/u012702547/article/details/54425130)  
-####Test27-mybatis4对应博客地址/[ mybatis常用配置](http://blog.csdn.net/u012702547/article/details/54428432)
+####Test27-mybatis4对应博客地址/[ mybatis常用配置](http://blog.csdn.net/u012702547/article/details/54428432)  
+####Test27-mybatis5对应博客地址/[ mybatis映射器配置细则](http://blog.csdn.net/u012702547/article/details/54562619)
