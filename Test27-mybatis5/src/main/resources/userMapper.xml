@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sang.db.UserMapper">
+    <resultMap id="userMap" type="org.sang.bean.User">
+        <id property="id" column="id" javaType="long" jdbcType="NUMERIC"/>
+        <result property="userName" column="user_name" javaType="string" jdbcType="VARCHAR"/>
+        <result property="password" column="password" javaType="string" jdbcType="VARCHAR"/>
+        <result property="address" column="address" javaType="string" jdbcType="VARCHAR"/>
+    </resultMap>
+    <select id="getUser" resultMap="userMap" parameterType="Long">
+        select * from user2 where id = #{id}
+    </select>
+    <select id="getUserByAddressAndName" resultMap="userMap">
+        SELECT * FROM user2 WHERE address=#{address} AND user_name LIKE concat(#{username},'%')
+    </select>
+    <select id="getUserByAddressAndName2" resultMap="userMap">
+        SELECT * FROM user2 WHERE address=#{address} AND user_name LIKE concat(#{username},'%')
+    </select>
+    <select id="getUserByAddressAndName3" resultMap="userMap" parameterType="org.sang.bean.UserParams">
+        SELECT * FROM user2 WHERE address=#{address} AND user_name LIKE concat(#{username},'%')
+    </select>
+    <insert id="insertUser" parameterType="u" useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO user2(user_name,password,address) VALUES (#{userName},#{password},#{address})
+    </insert>
+    <insert id="insertUser2" parameterType="u" useGeneratedKeys="true" keyProperty="id">
+      <selectKey keyProperty="id" resultType="long" order="BEFORE">
+          SELECT if(max(id) is null,1,max(id)+2) as newId FROM user3
+      </selectKey>
+        INSERT INTO user3(id,user_name,password,address) VALUES (#{id},#{userName},#{password},#{address})
+    </insert>
+    <delete id="deleteUser" parameterType="Long">
+        DELETE FROM user where id=#{id}
+    </delete>
+    <select id="getAll" resultMap="userMap">
+        SELECT * from user2
+    </select>
+    <select id="getCount" resultType="int">
+        SELECT COUNT(*) FROM user2
+    </select>
+</mapper>
