@@ -1,35 +1,41 @@
-# JavaEETest
-### 所有的案例在我的博客中都有详细介绍，博客地址：
-#[http://blog.csdn.net/u012702547](http://blog.csdn.net/u012702547)  
-####Test4对应博客地址/[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)
-####Test5对应博客地址/[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)
-####Test6-AOP对应博客地址/[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)
-####Test7-Scope对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
-####Test8-EL对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
-####Test9-BeanLiftCycle对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
-####Test10-Profile对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
-####Test11-Event对应博客地址/[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)
-####Test12-Aware对应博客地址/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
-####Test13-TaskExecutor对应博客地址/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
-####Test14-Scheduled对应博客地址/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
-####Test15-Conditional/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
-####Test16-GroupAnno/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
-####Test17-Test/[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)
-####Test18-SpringMVC1对应博客地址/[SpringMVC基础配置(通过注解配置,非xml配置) ](http://blog.csdn.net/u012702547/article/details/53674867)
-####Test18-SpringMVC2对应博客地址/[SpringMVC基础配置(通过注解配置,非xml配置) ](http://blog.csdn.net/u012702547/article/details/53674867)
-####Test18-SpringMVC3对应博客地址/[SpringMVC常用配置](http://blog.csdn.net/u012702547/article/details/53695789)
-####Test19-SpringBoot2对应博客地址/[初识Spring Boot框架](https://github.com/lenve/JavaEETest/tree/master/Test19-SpringBoot2)
-####Test19-MyStarter对应博客地址/[初识Spring Boot框架(二)之DIY一个Spring Boot的自动配置](http://blog.csdn.net/u012702547/article/details/53750449)
-####Test20-Thymeleaf1对应博客地址/[使用Spring Boot开发Web项目](http://blog.csdn.net/u012702547/article/details/53784992)/[使用Spring Boot开发Web项目(二)之添加HTTPS支持](http://blog.csdn.net/u012702547/article/details/53790722)
-####Test20-WebSocket对应博客地址/[在Spring Boot框架下使用WebSocket实现消息推送](http://blog.csdn.net/u012702547/article/details/53816326)
-####Test21-WebChat对应博客地址/[在Spring Boot框架下使用WebSocket实现聊天功能](http://blog.csdn.net/u012702547/article/details/53835453)  
-####Test22-JPA对应博客地址/[初识在Spring Boot中使用JPA](http://blog.csdn.net/u012702547/article/details/53946440)   
-####Test23-REST对应博客地址/[在Spring Boot中输出REST资源](http://blog.csdn.net/u012702547/article/details/54023654)
-####Test24-Transaction对应博客地址/[在Spring Boot中使用数据库事务](http://blog.csdn.net/u012702547/article/details/54098190)  
-####Test25-Cache对应博客地址/[ 在Spring Boot中使用数据缓存](http://blog.csdn.net/u012702547/article/details/54142243)  
-####Test26-Security对应博客地址/[ 在Spring Boot中使用Spring Security实现权限控制 ](http://blog.csdn.net/u012702547/article/details/54319508)  
-####Test27-mybatis2对应博客地址/[初识mybatis ](http://blog.csdn.net/u012702547/article/details/54408761)  
-####Test27-mybatis3对应博客地址/[ 初识mybatis(二)](http://blog.csdn.net/u012702547/article/details/54425130)  
-####Test27-mybatis4对应博客地址/[ mybatis常用配置](http://blog.csdn.net/u012702547/article/details/54428432)  
-####Test27-mybatis5对应博客地址/[ mybatis映射器配置细则](http://blog.csdn.net/u012702547/article/details/54562619)  
-####Test27-mybatis6对应博客地址/[ 关于mybatis中typeHandler的两个案例](http://blog.csdn.net/u012702547/article/details/54572679)
+###案例详解地址
+|案例|案例详解地址|
+|-------------|:-------------:|
+|Test4|[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)|
+|Test5|[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)|
+|Test6-AOP|[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)|
+|Test6-AOP|[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)|
+|Test7-Scope|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
+|Test8-EL|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
+|Test9-BeanLiftCycle|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
+|Test10-Profile|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
+|Test11-Event|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
+|Test12-Aware|[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)|
+|Test13-TaskExecutor|[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)|
+|Test14-Scheduled|[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)|
+|Test15-Conditional|[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)|
+|Test16-GroupAnno|[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)|
+|Test17-Test|[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)|
+|Test18-SpringMVC1|[SpringMVC基础配置(通过注解配置,非xml配置)](http://blog.csdn.net/u012702547/article/details/53674867)|
+|Test18-SpringMVC2|[SpringMVC基础配置(通过注解配置,非xml配置)](http://blog.csdn.net/u012702547/article/details/53674867)|
+|Test18-SpringMVC3|[SpringMVC常用配置](http://blog.csdn.net/u012702547/article/details/53695789)|
+|Test19-SpringBoot2|[初识SpringBoot框架](https://github.com/lenve/JavaEETest/tree/master/Test19-SpringBoot2)|
+|Test19-MyStarter|[初识SpringBoot框架(二)之DIY一个SpringBoot的自动配置](http://blog.csdn.net/u012702547/article/details/53750449)|
+|Test20-Thymeleaf1|[使用SpringBoot开发Web项目](http://blog.csdn.net/u012702547/article/details/53784992),[使用SpringBoot开发Web项目(二)之添加HTTPS支持](http://blog.csdn.net/u012702547/article/details/53790722)|
+|Test20-WebSocket|[在SpringBoot框架下使用WebSocket实现消息推送](http://blog.csdn.net/u012702547/article/details/53816326)|
+|Test21-WebChat|[在SpringBoot框架下使用WebSocket实现聊天功能](http://blog.csdn.net/u012702547/article/details/53835453)|
+|Test22-JPA|[初识在SpringBoot中使用JPA](http://blog.csdn.net/u012702547/article/details/53946440)|
+|Test23-REST|[在SpringBoot中输出REST资源](http://blog.csdn.net/u012702547/article/details/54023654)|
+|Test24-Transaction|[在SpringBoot中使用数据库事务](http://blog.csdn.net/u012702547/article/details/54098190)|
+|Test25-Cache|[在SpringBoot中使用数据缓存](http://blog.csdn.net/u012702547/article/details/54142243)|
+|Test26-Security|[在SpringBoot中使用SpringSecurity实现权限控制](http://blog.csdn.net/u012702547/article/details/54319508)|
+|Test27-mybatis2|[初识mybatis](http://blog.csdn.net/u012702547/article/details/54408761)|
+|Test27-mybatis3|[初识mybatis(二)](http://blog.csdn.net/u012702547/article/details/54425130)|
+|Test27-mybatis4|[mybatis常用配置](http://blog.csdn.net/u012702547/article/details/54428432)|
+|Test27-mybatis5|[mybatis映射器配置细则](http://blog.csdn.net/u012702547/article/details/54562619)|
+|Test27-mybatis6|[关于mybatis中typeHandler的两个案例](http://blog.csdn.net/u012702547/article/details/54572679)|
+
+#####更多JavaWeb资料欢迎小伙伴访问我的个人博客:
+
+[江南一点雨的专栏](http://blog.csdn.net/u012702547)
+
