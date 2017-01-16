@@ -19,7 +19,7 @@
 |Test18-SpringMVC1|[SpringMVC基础配置(通过注解配置,非xml配置)](http://blog.csdn.net/u012702547/article/details/53674867)|
 |Test18-SpringMVC2|[SpringMVC基础配置(通过注解配置,非xml配置)](http://blog.csdn.net/u012702547/article/details/53674867)|
 |Test18-SpringMVC3|[SpringMVC常用配置](http://blog.csdn.net/u012702547/article/details/53695789)|
-|Test19-SpringBoot2|[初识SpringBoot框架](https://github.com/lenve/JavaEETest/tree/master/Test19-SpringBoot2)|
+|Test19-SpringBoot2|[初识SpringBoot框架](http://blog.csdn.net/u012702547/article/details/53740047)|
 |Test19-MyStarter|[初识SpringBoot框架(二)之DIY一个SpringBoot的自动配置](http://blog.csdn.net/u012702547/article/details/53750449)|
 |Test20-Thymeleaf1|[使用SpringBoot开发Web项目](http://blog.csdn.net/u012702547/article/details/53784992),[使用SpringBoot开发Web项目(二)之添加HTTPS支持](http://blog.csdn.net/u012702547/article/details/53790722)|
 |Test20-WebSocket|[在SpringBoot框架下使用WebSocket实现消息推送](http://blog.csdn.net/u012702547/article/details/53816326)|
