@@ -31,4 +31,5 @@
 ####Test27-mybatis2对应博客地址/[初识mybatis ](http://blog.csdn.net/u012702547/article/details/54408761)  
 ####Test27-mybatis3对应博客地址/[ 初识mybatis(二)](http://blog.csdn.net/u012702547/article/details/54425130)  
 ####Test27-mybatis4对应博客地址/[ mybatis常用配置](http://blog.csdn.net/u012702547/article/details/54428432)  
-####Test27-mybatis5对应博客地址/[ mybatis映射器配置细则](http://blog.csdn.net/u012702547/article/details/54562619)
+####Test27-mybatis5对应博客地址/[ mybatis映射器配置细则](http://blog.csdn.net/u012702547/article/details/54562619)  
+####Test27-mybatis6对应博客地址/[ 关于mybatis中typeHandler的两个案例](http://blog.csdn.net/u012702547/article/details/54572679)
