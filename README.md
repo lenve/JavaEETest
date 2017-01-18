@@ -34,6 +34,7 @@
 |Test27-mybatis4|[mybatis常用配置](http://blog.csdn.net/u012702547/article/details/54428432)|
 |Test27-mybatis5|[mybatis映射器配置细则](http://blog.csdn.net/u012702547/article/details/54562619)|
 |Test27-mybatis6|[关于mybatis中typeHandler的两个案例](http://blog.csdn.net/u012702547/article/details/54572679)|
+|Test27-mybatis7|[mybatis中resultMap配置细则](http://blog.csdn.net/u012702547/article/details/54599132)|
 
 #####更多JavaWeb资料欢迎小伙伴访问我的个人博客:
 
