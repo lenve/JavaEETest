@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sang.db.ProvinceMapper">
+    <resultMap id="provinceResultMapper" type="org.sang.bean.Province">
+        <id column="id" property="id"/>
+        <association property="alias" column="id" select="org.sang.db.AliasMapper.findAliasByPid" fetchType="eager"/>
+        <collection property="cities" column="id" select="org.sang.db.CityMapper.findCityByPid" fetchType="lazy"/>
+        <discriminator javaType="int" column="area">
+            <case value="1" resultMap="noodleResultMap"></case>
+            <case value="2" resultMap="riceResultMap"></case>
+        </discriminator>
+    </resultMap>
+    <resultMap id="noodleResultMap" type="org.sang.bean.Province" extends="provinceResultMapper">
+        <collection property="foods" column="area" select="org.sang.db.NoodleMapper.findNoodleByArea"/>
+    </resultMap>
+    <resultMap id="riceResultMap" type="org.sang.bean.Province" extends="provinceResultMapper">
+        <collection property="foods" column="area" select="org.sang.db.RiceMapper.findRiceByArea"/>
+    </resultMap>
+    <select id="getProvince" resultMap="provinceResultMapper">
+      SELECT * FROM province
+    </select>
+
+</mapper>

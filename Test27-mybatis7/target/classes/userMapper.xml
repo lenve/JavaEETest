@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sang.db.UserMapper">
+    <resultMap id="userResultMap" type="org.sang.bean.User">
+        <constructor>
+            <idArg column="id" javaType="long"/>
+            <arg column="username" javaType="string"/>
+            <arg column="password" javaType="string"/>
+            <arg column="address" javaType="string"/>
+        </constructor>
+    </resultMap>
+    <sql id="selectAll">
+        SELECT * FROM user
+    </sql>
+    <sql id="selectAll3">
+        id,username,address,password
+    </sql>
+    <sql id="selectAll4">
+        ${prefix}.id,${prefix}.username,${prefix}.address
+    </sql>
+    <select id="getUser" resultType="user" parameterType="Long">
+        select * from user where id = #{id}
+    </select>
+    <select id="getUser2" resultType="user">
+        <include refid="selectAll"/>
+    </select>
+    <select id="getUser3" resultType="user">
+        SELECT
+        <include refid="selectAll3"/> FROM user
+    </select>
+    <select id="getUser4" resultType="user" parameterType="string">
+        SELECT
+        <include refid="selectAll4">
+            <property name="prefix" value="u"/>
+        </include> FROM user u
+    </select>
+    <select id="getUser5" resultMap="userResultMap">
+        SELECT * FROM user
+    </select>
+    <select id="getUser6" resultType="map">
+        SELECT * FROM user
+    </select>
+</mapper>

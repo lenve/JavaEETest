@@ -1,0 +1,36 @@
+-- insert into province(name) values('陕西');
+-- insert into province(name) values('广东');
+-- insert into province(name) values('海南');
+-- insert into province(name) values('广西');
+-- INSERT INTO alias(name,pid) VALUES ('秦',1);
+-- INSERT INTO alias(name,pid) VALUES ('粤',2);
+-- INSERT INTO alias(name,pid) VALUES ('琼',3);
+-- INSERT INTO alias(name,pid) VALUES ('桂',4);
+-- INSERT INTO city(name,pid) VALUES ('西安',1);
+-- INSERT INTO city(name,pid) VALUES ('渭南',1);
+-- INSERT INTO city(name,pid) VALUES ('咸阳',1);
+-- INSERT INTO city(name,pid) VALUES ('宝鸡',1);
+-- INSERT INTO city(name,pid) VALUES ('汉中',1);
+-- INSERT INTO city(name,pid) VALUES ('延安',1);
+--
+-- INSERT INTO city(name,pid) VALUES ('广州',2);
+-- INSERT INTO city(name,pid) VALUES ('深圳',2);
+-- INSERT INTO city(name,pid) VALUES ('东莞',2);
+-- INSERT INTO city(name,pid) VALUES ('珠海',2);
+-- INSERT INTO city(name,pid) VALUES ('佛山',2);
+--
+-- INSERT INTO city(name,pid) VALUES ('海口',3);
+-- INSERT INTO city(name,pid) VALUES ('东方',3);
+-- INSERT INTO city(name,pid) VALUES ('琼海',3);
+-- INSERT INTO city(name,pid) VALUES ('澄迈',3);
+-- INSERT INTO city(name,pid) VALUES ('三亚',3);
+-- INSERT INTO city(name,pid) VALUES ('文昌',3);
+--
+-- INSERT INTO city(name,pid) VALUES ('南宁',4);
+-- INSERT INTO city(name,pid) VALUES ('柳州',4);
+-- INSERT INTO city(name,pid) VALUES ('贺州',4);
+-- INSERT INTO city(name,pid) VALUES ('百色',4);
+-- INSERT INTO rice(name,way) VALUES ('米饭','蒸熟了吃');
+INSERT INTO rice(name,way) VALUES ('糍粑','做熟了吃');
+-- INSERT INTO noodle(name,price) VALUES ('油泼面',3);
+INSERT INTO noodle(name,price) VALUES ('臊子面',10);
