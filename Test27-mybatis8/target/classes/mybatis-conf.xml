@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <properties resource="db.properties"/>
+    <!--<properties>-->
+        <!--<property name="driver" value="com.mysql.jdbc.Driver"/>-->
+        <!--<property name="url" value="jdbc:mysql://localhost:3306/mybatis"/>-->
+        <!--<property name="username" value="root"/>-->
+        <!--<property name="password" value="sang"/>-->
+    <!--</properties>-->
+        <!--<typeAlias type="org.sang.bean.User" alias="user"/>-->
+    <typeAliases>
+        <package name="org.sang.bean"/>
+    </typeAliases>
+    <environments default="development">
+        <environment id="development">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driver}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${username}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+        <!--<package name="org.sang.db"/>-->
+        <!--<mapper class="org.sang.db.UserMapper"/>-->
+    <mappers>
+        <mapper resource="userMapper.xml"/>
+    </mappers>
+</configuration>
