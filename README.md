@@ -36,7 +36,7 @@
 |Test27-mybatis6|[关于mybatis中typeHandler的两个案例](http://blog.csdn.net/u012702547/article/details/54572679)|
 |Test27-mybatis7|[mybatis中resultMap配置细则](http://blog.csdn.net/u012702547/article/details/54599132)|
 |Test27-mybatis8|[mybatis中的缓存问题](http://blog.csdn.net/u012702547/article/details/55051908)|
-|Test27-mybatis6|[ mybatis中的动态SQL](http://blog.csdn.net/u012702547/article/details/55105400)|
+|Test27-mybatis9|[ mybatis中的动态SQL](http://blog.csdn.net/u012702547/article/details/55105400)|
 
 #####更多JavaWeb资料欢迎小伙伴访问我的个人博客:
 
