@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sang.db.UserMapper">
+    <resultMap id="u" type="org.sang.bean.User">
+        <result column="user_name" property="username"/>
+    </resultMap>
+    <select id="getUser" resultMap="u" parameterType="String">
+        select * from user2
+        <if test="address!=null and address !=''">
+            WHERE address LIKE concat('%',#{address},'%')
+        </if>
+    </select>
+    <select id="getUser2" resultMap="u">
+        SELECT * FROM user2 WHERE 1=1
+        <choose>
+            <when test="id!=null">
+                AND id=#{id}
+            </when>
+            <when test="address!=null">
+                AND address=#{address}
+            </when>
+            <when test="username!=null">
+                AND user_name LIKE concat(#{username},'%')
+            </when>
+            <otherwise>
+                AND 10>id
+            </otherwise>
+        </choose>
+    </select>
+    <select id="getUser3" resultMap="u">
+        SELECT * FROM user2
+        <where>
+            <choose>
+                <when test="id!=null">
+                    AND id=#{id}
+                </when>
+                <when test="address!=null">
+                    AND address=#{address}
+                </when>
+                <when test="username!=null">
+                    AND user_name LIKE concat(#{username},'%')
+                </when>
+                <otherwise>
+                    AND 10>id
+                </otherwise>
+            </choose>
+        </where>
+    </select>
+    <select id="getUser4" resultMap="u">
+        SELECT * FROM user2
+        <trim prefix="where" prefixOverrides="and">
+            AND id=1
+        </trim>
+    </select>
+    <update id="update">
+        UPDATE user2
+        <set>
+            <if test="username!=null">
+                user_name=#{username},
+            </if>
+            <if test="password!=null">
+                password=#{password}
+            </if>
+        </set>
+        WHERE id=#{id}
+    </update>
+    <select id="getUserInCities" resultMap="u">
+        SELECT * FROM user2
+        WHERE address IN
+        <foreach collection="cities" index="city" open="(" separator="," close=")" item="city">
+            #{city}
+        </foreach>
+    </select>
+    <select id="getUserByName" resultMap="u">
+        <bind name="un" value="username+'%'"></bind>
+            SELECT* FROM user2 WHERE user_name LIKE #{un}
+
+    </select>
+</mapper>
