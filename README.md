@@ -37,6 +37,7 @@
 |Test27-mybatis7|[mybatis中resultMap配置细则](http://blog.csdn.net/u012702547/article/details/54599132)|
 |Test27-mybatis8|[mybatis中的缓存问题](http://blog.csdn.net/u012702547/article/details/55051908)|
 |Test27-mybatis9|[ mybatis中的动态SQL](http://blog.csdn.net/u012702547/article/details/55105400)|
+|Test28-Spring1|[ Spring中bean实例化的三种方式](http://blog.csdn.net/u012702547/article/details/56021922)|
 
 #####更多JavaWeb资料欢迎小伙伴访问我的个人博客:
 
