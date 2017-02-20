@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!--普通创建方式-->
+    <bean class="org.sang.User" id="user" scope="prototype"/>
+    <!--静态工厂创建-->
+    <bean id="user2" class="org.sang.User2Factory" factory-method="getInstance"/>
+    <!--实例工厂创建-->
+    <bean class="org.sang.User3Factory" id="user3Factory"/>
+    <bean id="user3" factory-bean="user3Factory" factory-method="getUser3"/>
+    <bean id="user4" class="org.sang.User4">
+        <constructor-arg name="username" value="张三"/>
+    </bean>
+    <bean id="user5" class="org.sang.User5">
+        <property name="username" value="lisi"/>
+    </bean>
+    <bean id="userDao" class="org.sang.UserDao"/>
+    <bean id="userService" class="org.sang.UserService">
+        <!--<property name="userDao" ref="userDao"/>-->
+        <constructor-arg name="userDao" ref="userDao"/>
+    </bean>
+    <bean id="user6" class="org.sang.User6" p:username="张三">
+    </bean>
+    <bean id="user7" class="org.sang.User7">
+        <property name="names">
+            <list>
+                <value>张三</value>
+                <value>李四</value>
+                <value>王五</value>
+            </list>
+        </property>
+        <property name="list">
+            <list>
+                <value>足球</value>
+                <value>篮球</value>
+                <value>乒乓球</value>
+            </list>
+        </property>
+
+        <property name="map">
+            <map>
+                <entry key="username" value="张三"/>
+                <entry key="password" value="123456"/>
+            </map>
+        </property>
+        <property name="properties">
+            <props>
+                <prop key="username">赵六</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
