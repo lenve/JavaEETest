@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="org.sang.dao.ArticleDao">
+    <select id="getArticleById" resultType="org.sang.entity.Article">
+        select * from article a where id = #{id}
+    </select>
+    <select id="getFirst10Article" resultType="org.sang.entity.Article">
+        select a.*,c.name as category from article a,category c WHERE a.categoryId=c.id limit 10
+    </select>
+    <resultMap id="categoryType" type="org.sang.entity.Category">
+        <result property="displayName" column="display_name"/>
+    </resultMap>
+    <select id="getCategories" resultMap="categoryType">
+        SELECT * FROM category
+    </select>
+    <insert id="writeBlog" parameterType="org.sang.entity.Article">
+        INSERT INTO article(title,content,categoryId,summary,date) VALUES (#{title},#{content},#{categoryId},#{summary},#{date})
+    </insert>
+    <select id="getCategoryIdByName" parameterType="string" resultType="long">
+        SELECT id FROM category WHERE name=#{name}
+    </select>
+    <delete id="deleteArticleById" parameterType="long">
+        DELETE FROM article WHERE id=#{id}
+    </delete>
+    <update id="updateArticleById" parameterType="org.sang.entity.Article">
+        UPDATE article set title=#{title},content=#{content},summary=#{summary},date=#{date} WHERE id=#{id}
+    </update>
+    <select id="getCategoryById" parameterType="long" resultMap="categoryType">
+        SELECT * FROM category WHERE id=#{id}
+    </select>
+    <select id="getArticlesByCategoryName" parameterType="long" resultType="org.sang.entity.Article">
+        SELECT a.*,c.name as category FROM article a,category c WHERE a.categoryId=c.id AND categoryId=#{categoryId}
+    </select>
+</mapper>
