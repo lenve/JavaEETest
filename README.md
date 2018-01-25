@@ -1,5 +1,11 @@
 ### 关注公众号，第一时间获取最新文章
-![qrcode_for_gh_d1ca11234a30_258](https://cloud.githubusercontent.com/assets/6023444/23211124/6d97cca2-f93b-11e6-9438-57ef23454f18.jpg)
+![qrcode_for_gh_d1ca11234a30_258](https://cloud.githubusercontent.com/assets/6023444/23211124/6d97cca2-f93b-11e6-9438-57ef23454f18.jpg)  
+
+### 欢迎小伙伴关注另外两个前后端分离的SpringBoot项目  
+
+[【1.V部落，Vue+SpringBoot实现的多用户博客管理平台!】](https://github.com/lenve/VBlog)  
+[【2.vhr,微人事是一个前后端分离的人力资源管理系统，项目采用SpringBoot+Vue开发。】](https://github.com/lenve/vhr)  
+
 ### 案例详解地址
 |案例|案例详解地址|
 |-------------|:-------------:|
