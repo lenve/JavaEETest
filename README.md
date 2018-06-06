@@ -15,7 +15,7 @@
 |Test6-AOP|[Spring基础配置](http://blog.csdn.net/u012702547/article/details/53587684)|
 |Test7-Scope|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
 |Test8-EL|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
-|Test9-BeanLiftCycle|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
+|Test9-BeanLifeCycle|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
 |Test10-Profile|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
 |Test11-Event|[Spring常用配置](http://blog.csdn.net/u012702547/article/details/53633872)|
 |Test12-Aware|[Spring常用配置(二)](http://blog.csdn.net/u012702547/article/details/53645149)|
