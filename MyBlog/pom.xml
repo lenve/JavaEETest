@@ -16,7 +16,7 @@
         </dependency>
       </dependencies>-->
     <properties>
-        <spring.version>4.3.7.RELEASE</spring.version>
+        <spring.version>5.2.22.RELEASE</spring.version>
     </properties>
     <dependencies>
         <dependency>
